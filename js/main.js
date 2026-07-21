@@ -23,3 +23,16 @@ document.addEventListener("DOMContentLoaded", function () {
             alert("El módulo «" + nombre + "» todavía está en construcción.");
         });
     });
+
+    // CÓDIGO A MODIFICAR EN main.js
+enlaces.forEach(function (enlace) {
+    enlace.addEventListener("click", function (evento) {
+        evento.preventDefault();
+
+        const nombreElem = enlace.querySelector(".modulo__nombre");
+        // FIX: Evitamos error si el elemento nombreElem llega a ser null
+        const nombre = nombreElem ? nombreElem.textContent : "Desconocido";
+        
+        alert("El módulo «" + nombre + "» todavía está en construcción.");
+    });
+});
