@@ -25,11 +25,13 @@ En desarrollo.
 git clone https://github.com/Ing-ZulmaSalas/sigg-finca-las-mercedes.git
 
 # Entrar al directorio
-cd sigg-finca-las-mercedes
+cd sigg-finca-las-mercedes-michael
 ```
 ## Tecnologías
 
-Por definir.
+- *HTML5* — Estructura y contenido de las páginas.
+- *CSS3* — Estilos y diseño adaptable a distintos dispositivos.
+- *JavaScript* — Lógica e interactividad del lado del cliente.
 
 ## Autor
 Michaell Andrey Cañon Torres
@@ -40,4 +42,4 @@ Este proyecto está bajo la **Licencia MIT**, una licencia permisiva que permite
 Consulta el archivo [LICENSE](LICENSE) para el texto completo.
 
 ```
-Copyright (c) 2026 Zulma Salas```
+Copyright (c) 2026 Michael Cañon```
