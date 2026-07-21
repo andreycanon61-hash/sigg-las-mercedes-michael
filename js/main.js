@@ -9,3 +9,17 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
 });
+
+/* ---------- Aviso en los módulos que aún no existen ----------
+       Mientras las páginas de cada módulo no estén construidas,
+       el enlace no lleva a ninguna parte... */
+    const enlaces = document.querySelectorAll('.modulo__enlace[aria-disabled="true"]');
+
+    enlaces.forEach(function (enlace) {
+        enlace.addEventListener("click", function (evento) {
+            evento.preventDefault();
+
+            const nombre = enlace.querySelector(".modulo__nombre").textContent;
+            alert("El módulo «" + nombre + "» todavía está en construcción.");
+        });
+    });
