@@ -38,3 +38,4 @@ Por definir.
 Zulma Salas
 
 ## Licencia
+MIT licence
