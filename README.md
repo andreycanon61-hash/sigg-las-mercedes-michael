@@ -27,7 +27,7 @@ En desarrollo.
 git clone https://github.com/Ing-ZulmaSalas/sigg-finca-las-mercedes.git
 
 # Entrar al directorio
-cd sigg-finca-las-mercedes
+cd sigg-finca-las-mercedes-michael
 ```
 ## Tecnologías
 
