@@ -22,7 +22,7 @@ En desarrollo.
 ```bash
 
 # Clonar el repositorio
-git clone https://github.com/Ing-ZulmaSalas/sigg-finca-las-mercedes.git
+https://github.com/andreycanon61-hash/sigg-las-mercedes-michael.git
 
 # Entrar al directorio
 cd sigg-finca-las-mercedes-michael
@@ -42,4 +42,4 @@ Este proyecto está bajo la **Licencia MIT**, una licencia permisiva que permite
 Consulta el archivo [LICENSE](LICENSE) para el texto completo.
 
 ```
-Copyright (c) 2026 Michael Cañon```
+Copyright (c) 2026 Michael Cañon
